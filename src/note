@@ -1,0 +1,16 @@
+红桃：heart
+黑桃：spade
+方片：diamond
+梅花：club
+对子：pair
+顺子：Straight
+连对：paired
+炸弹：boom
+王炸：bigBoom
+出牌→公共牌池→判别是否符合规则并判断是何牌组→打出牌→记录牌组类型
+
+对4起牌
+多线程
+判结束，分输赢
+进贡还贡
+按次序分牌。
