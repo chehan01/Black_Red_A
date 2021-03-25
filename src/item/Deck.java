@@ -56,9 +56,14 @@ public class Deck {
         b.addCard(deck.get(53));
     }
 
-    //获取排队内某张牌的值
+    //获取牌堆内某张牌的值
     public int getCardNum(int n) {
         return this.getDeck().get(n).getNumber();
+    }
+
+    //获取牌堆内某张牌的权
+    public int getCardPower(int n) {
+        return this.getDeck().get(n).getPower();
     }
 
     //排序

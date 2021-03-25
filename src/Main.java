@@ -70,9 +70,7 @@ public class Main {
             }
             Scanner sc = new Scanner(System.in);
             System.out.println("ÊÇ·ñ¼ÌÐøÓÎÏ·");
-            if(sc.nextInt() == 1){
-
-            }else {
+            if (sc.nextInt() != 1) {
                 sc.close();
                 break;
             }

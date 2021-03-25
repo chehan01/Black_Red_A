@@ -5,10 +5,25 @@ import item.Player;
 
 public class Judge {
 
-    public boolean pair(Deck deck) {
-        if ((deck.getDeck().size() == 2) && (deck.getCardNum(0) == deck.getCardNum(1))){
-            System.out.println("It's pair");
+    public boolean single(Deck deck) {
+        if (deck.getDeck().size() == 1) {
+            System.out.println("一张" + deck.getCardNum(0));
             return true;
+        }
+        return false;
+    }
+
+    public boolean pair(Deck deck) {
+        deck.sort();
+        if (deck.getDeck().size() == 2){
+            if (deck.getCardPower(0) == deck.getCardPower(1)) {
+                System.out.println("对" + deck.getCardNum(0));
+                return true;
+            } else if (deck.getCardPower(0) == 15 && deck.getCardPower(1) == 14) {
+                System.out.println("王炸");
+                return true;
+            }
+
         }
         return false;
     }
@@ -26,7 +41,7 @@ public class Judge {
                 return false;
             }
         }
-        System.out.println("It's boom");
+        System.out.println(deck.getDeck().size() + "炸" + deck.getCardNum(0));
         return true;
     }
 
@@ -37,7 +52,7 @@ public class Judge {
                 return false;
             }
         }
-        System.out.println("It's straight");
+        System.out.println("顺子");
         return true;
     }
 
@@ -68,33 +83,13 @@ public class Judge {
                 return false;
             }
         }
-        System.out.println("It's paired");
+        System.out.println("连对");
         return true;
     }
 
     public void legitimate(Deck deck, Player player) {
-//        if (deck.getDeck().size() == 1 || pair(deck) || paired(deck) || boom(deck) || straight(deck)) {
-//            System.out.println("出牌符合规则。");
-//        } else {
-//            System.out.println("出牌不符合规则！");
-//            for (int i = 0; i < deck.getDeck().size(); i++) {
-//                player.getDeck().add(deck.getDeck().get(i));
-//            }
-//            deck.getDeck().clear();
-//            player.sort();
-//        }
-        if (deck.getDeck().size() == 1) {
-            System.out.println("一张" + deck.getCardNum(0));
-        } else if (pair(deck)) {
-            System.out.println("对"+ deck.getCardNum(0));
-        } else if (paired(deck)) {
-            System.out.println("连对");
-        } else if (boom(deck)) {
-            System.out.println("炸弹");
-        } else if (straight(deck)) {
-            System.out.println("顺子");
-        } else if (deck.getDeck().size() == 0) {
-            System.out.println("过");
+        if (single(deck) || pair(deck) || paired(deck) || boom(deck) || straight(deck)) {
+            System.out.println("出牌符合规则。");
         } else {
             System.out.println("出牌不符合规则！");
             for (int i = 0; i < deck.getDeck().size(); i++) {
@@ -103,6 +98,26 @@ public class Judge {
             deck.getDeck().clear();
             player.sort();
         }
+//        if (deck.getDeck().size() == 1) {
+//            System.out.println("一张" + deck.getCardNum(0));
+//        } else if (pair(deck)) {
+//            System.out.println("对"+ deck.getCardNum(0));
+//        } else if (paired(deck)) {
+//            System.out.println("连对");
+//        } else if (boom(deck)) {
+//            System.out.println("炸弹");
+//        } else if (straight(deck)) {
+//            System.out.println("顺子");
+//        } else if (deck.getDeck().size() == 0) {
+//            System.out.println("过");
+//        } else {
+//            System.out.println("出牌不符合规则！");
+//            for (int i = 0; i < deck.getDeck().size(); i++) {
+//                player.getDeck().add(deck.getDeck().get(i));
+//            }
+//            deck.getDeck().clear();
+//            player.sort();
+//        }
 
     }
 
