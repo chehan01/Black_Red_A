@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00fd5f6c-d605-4dac-bdea-e710c140c6c4" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dbc/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbc/JDBCUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/item/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/item/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/judge/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/judge/Judge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,7 @@
       <workItem from="1616572302605" duration="1006000" />
       <workItem from="1616573548720" duration="586000" />
       <workItem from="1616635690280" duration="8905000" />
+      <workItem from="1616645850460" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="null">
       <created>1616572481799</created>
