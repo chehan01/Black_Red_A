@@ -73,9 +73,29 @@ public class Judge {
     }
 
     public void legitimate(Deck deck, Player player) {
-        if (deck.getDeck().size() == 1 || pair(deck) || paired(deck) || boom(deck) || straight(deck)) {
-            System.out.println("出牌符合规则。");
-        }else {
+//        if (deck.getDeck().size() == 1 || pair(deck) || paired(deck) || boom(deck) || straight(deck)) {
+//            System.out.println("出牌符合规则。");
+//        } else {
+//            System.out.println("出牌不符合规则！");
+//            for (int i = 0; i < deck.getDeck().size(); i++) {
+//                player.getDeck().add(deck.getDeck().get(i));
+//            }
+//            deck.getDeck().clear();
+//            player.sort();
+//        }
+        if (deck.getDeck().size() == 1) {
+            System.out.println("一张" + deck.getCardNum(0));
+        } else if (pair(deck)) {
+            System.out.println("对"+ deck.getCardNum(0));
+        } else if (paired(deck)) {
+            System.out.println("连对");
+        } else if (boom(deck)) {
+            System.out.println("炸弹");
+        } else if (straight(deck)) {
+            System.out.println("顺子");
+        } else if (deck.getDeck().size() == 0) {
+            System.out.println("过");
+        } else {
             System.out.println("出牌不符合规则！");
             for (int i = 0; i < deck.getDeck().size(); i++) {
                 player.getDeck().add(deck.getDeck().get(i));

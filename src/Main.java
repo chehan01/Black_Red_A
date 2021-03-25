@@ -59,6 +59,7 @@ public class Main {
                 }
                 //创建输入流
                 Scanner sc = new Scanner(System.in);
+                judgeCardsGroup.getDeck().clear();
                 while (!sc.hasNext("#")) {
                     A.remove(sc.nextInt(),judgeCardsGroup);
                 }

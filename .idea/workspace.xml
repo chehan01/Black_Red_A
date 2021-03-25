@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="00fd5f6c-d605-4dac-bdea-e710c140c6c4" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dbc/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbc/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/item/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/item/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/judge/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/judge/Judge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Red_Black_A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -34,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616572299722</updated>
       <workItem from="1616572302605" duration="1006000" />
-      <workItem from="1616573548720" duration="249000" />
+      <workItem from="1616573548720" duration="586000" />
+      <workItem from="1616635690280" duration="8905000" />
     </task>
     <task id="LOCAL-00001" summary="null">
       <created>1616572481799</created>
@@ -43,7 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616572481799</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="null">
+      <created>1616573910699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616573910699</updated>
+    </task>
+    <task id="LOCAL-00003" summary="null">
+      <created>1616573930591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616573930591</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,10 +100,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="null" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="6" key="CommitChangelistDialog2" timestamp="1616573909561">
+    <state x="374" y="6" key="CommitChangelistDialog2" timestamp="1616573929575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="374" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1616573909561" />
+    <state x="374" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1616573929575" />
+    <state width="1493" height="353" key="GridCell.Tab.0.bottom" timestamp="1616644958325">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="353" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616644958325" />
+    <state width="1493" height="353" key="GridCell.Tab.0.center" timestamp="1616644958322">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="353" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616644958322" />
+    <state width="1493" height="353" key="GridCell.Tab.0.left" timestamp="1616644958318">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="353" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616644958318" />
+    <state width="1493" height="353" key="GridCell.Tab.0.right" timestamp="1616644958324">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="353" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616644958324" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616573639025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -44,7 +44,6 @@ public class Player extends Thread{
 //                控制台输出想要出的牌
                 System.out.print(c.getNumber() +" ");
 //                清除上家存入公共牌池中的牌，并存入该玩家的牌
-                judge.getDeck().clear();
                 judge.addCards(c);
                 deck.remove(c);
                 break;

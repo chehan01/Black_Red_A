@@ -8,9 +8,9 @@ public class JDBCUtils  {
     //创建数据库连接
     public static Connection getConnection() {
         final String DBDRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DBURL = "jdbc:mysql://localhost:3306/card?characterEncoding=GBK&serverTimezone=UTC";
+        final String DBURL = "jdbc:mysql://localhost:3306/cards?characterEncoding=GBK&serverTimezone=UTC";
         final String DBUSER = "root";
-        final String DBPASS = "917350";
+        final String DBPASS = "917350chehan";
         Connection conn=null;
         try
         {
